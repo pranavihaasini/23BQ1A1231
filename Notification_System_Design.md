@@ -12,7 +12,7 @@ Notifications are prioritized based on a combination of weight:
 1. Placement
 2. Result
 3. Event
-Notifications with the same type are ordered by timestamp in descending order (most recent first).
+Notifications with the same type are ordered by timestamp in descending order.
 After sorting, the top 10 notifications are selected and displayed.
 Algorithm : 
 1. Fetch notifications from API.
@@ -24,4 +24,5 @@ Algorithm :
 3. Sort by priority.
 4. Sort by timestamp for equal priorities.
 5. Select first 10 notifications.
+
 
